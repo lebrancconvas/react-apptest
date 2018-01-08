@@ -1,0 +1,102 @@
+[debug] [2018-01-08T08:48:07.550Z] ----------------------------------------------------------------------
+[debug] [2018-01-08T08:48:07.554Z] Command:       D:\Poomkun\My Program\node.exe C:\Users\Poomkun\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2018-01-08T08:48:07.554Z] CLI Version:   3.16.0
+[debug] [2018-01-08T08:48:07.554Z] Platform:      win32
+[debug] [2018-01-08T08:48:07.554Z] Node Version:  v9.3.0
+[debug] [2018-01-08T08:48:07.554Z] Time:          Mon Jan 08 2018 15:48:07 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-01-08T08:48:07.554Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-08T08:48:07.570Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-01-08T08:48:07.570Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Poomkun\xampp\htdocs\react-apptest\lebranc-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-01-08T08:48:17.455Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-08T08:48:17.459Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/sPIWcpQZIXYo3Vq_brPfj1JD8jpbAYFGmJWBzU03cPfKa0bk9xICxN7UN2SfUPY-',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jan 08 2018 15:48:17 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-01-08T08:48:17.784Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-08T08:48:17.824Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Mon Jan 08 2018 15:48:17 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-01-08T08:48:19.392Z] <<< HTTP RESPONSE 200
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2018-01-08T08:48:26.995Z] >>> HTTP REQUEST GET https://lebranc-app.firebaseio.com/.settings/rules.json  
+  
+ Mon Jan 08 2018 15:48:26 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-01-08T08:48:28.098Z] <<< HTTP RESPONSE 200
+[info] +  Database Rules for lebranc-app have been downloaded to database.rules.json.
+[info] Future modifications to database.rules.json will update Database Rules when you run
+[info] firebase deploy.
+[info] 
+=== Firestore Setup
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[info] 
+=== Functions Setup
+[info] 
+[info] A functions directory will be created in your project with a Node.js
+[info] package pre-configured. Functions can be deployed with firebase deploy.
+[info] 
+[debug] [2018-01-08T08:48:35.352Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-08T08:48:35.352Z] > authorizing via signed-in user
+[debug] [2018-01-08T08:48:35.356Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-08T08:48:35.356Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/sPIWcpQZIXYo3Vq_brPfj1JD8jpbAYFGmJWBzU03cPfKa0bk9xICxN7UN2SfUPY-',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jan 08 2018 15:48:35 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-01-08T08:48:35.553Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-08T08:48:35.610Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/lebranc-app  
+  
+ Mon Jan 08 2018 15:48:35 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-01-08T08:48:36.563Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-08T08:48:36.563Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/lebranc-app/tokens  
+  
+ Mon Jan 08 2018 15:48:36 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-01-08T08:48:37.724Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-08T08:48:37.732Z] >>> HTTP REQUEST PATCH https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/lebranc-app?updateMask=usageSettings  
+ { usageSettings: { consumerEnableStatus: 'ENABLED' } } 
+ Mon Jan 08 2018 15:48:37 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-01-08T08:48:37.732Z] >>> HTTP REQUEST PATCH https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/lebranc-app?updateMask=usageSettings  
+ { usageSettings: { consumerEnableStatus: 'ENABLED' } } 
+ Mon Jan 08 2018 15:48:37 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-01-08T08:48:39.977Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-08T08:48:39.977Z] <<< HTTP RESPONSE 200
+[info] +  Wrote functions/package.json
+[info] +  Wrote functions/index.js
